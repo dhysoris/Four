@@ -1,13 +1,11 @@
 import * as THREE from 'three';
 import getStarfield from './starfield.js';
-import Stats from 'three/addons/libs/stats.module.js';
 
-import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { Water } from 'three/addons/objects/Water.js';
-import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
-import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
-import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+import { OrbitControls } from 'jsm/controls/OrbitControls.js';
+import { Water } from 'jsm/objects/Water.js';
+import { EffectComposer } from 'jsm/postprocessing/EffectComposer.js';
+import { RenderPass } from 'jsm/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from 'jsm/postprocessing/UnrealBloomPass.js';
 
 
 // Template

@@ -17,7 +17,7 @@ canvas.setSize(window.innerWidth, window.innerHeight)
 canvas.setPixelRatio(window.devicePixelRatio)
 canvas.toneMapping = THREE.ACESFilmicToneMapping
 canvas.toneMappingExposure = 0.5
-scene.background = new THREE.Color("gray")
+scene.background = new THREE.Color(0x000000)
 document.body.appendChild(canvas.domElement)
 
 const camera = new THREE.PerspectiveCamera(100, window.innerWidth / window.innerHeight, 0.1, 10000)
